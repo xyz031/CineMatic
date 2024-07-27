@@ -1,0 +1,68 @@
+.navbar{
+  list-style: none;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 0 3px 6px 0 ;
+background-color: #f3aa4e;
+}
+
+
+.li{
+  
+  background-color: #f3aa4e;
+}
+.search{
+  display: flex;
+  align-items: end;
+width: 1300px;
+flex-direction: row-reverse;
+  /* border: solid black; */
+  background-color: #f3aa4e;
+  
+}
+input{
+  width: 300px;
+  height: 32px;
+  margin-top: -5px;
+  color: black;
+  background-color: aliceblue;
+  border-radius: 4%;
+  border: #f3aa4e solid;
+  border: solid black;
+  
+}
+*{
+  margin: 0;
+  background-color: black;
+}
+
+.MovieListContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 25px;
+  justify-content: space-evenly;
+}
+p{
+  background-color: #f3aa4e;
+  color: black;
+}
+
+.error{
+  width: 100vh;
+}
+
+.n{
+  color: red;
+  background-color:#f3aa4e;
+  font-size: 25px;
+  font-weight: bold;
+}

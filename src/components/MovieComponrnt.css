@@ -1,0 +1,17 @@
+.MovieContainer{ 
+    border: solid black ;
+    height: 350px;
+    width: 300px;
+    margin: 15px;
+    background-color: aliceblue;
+   border-radius: 5%;
+}
+
+.CoverImage{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.MovieInfo{
+    background-color: aliceblue;
+}
