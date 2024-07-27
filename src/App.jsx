@@ -27,7 +27,7 @@ onMovieSelect('')
   return () => {
     fetc(inputtext);
   }
-}, [inputtext])
+}, [inputtext], [])
 
 
  
